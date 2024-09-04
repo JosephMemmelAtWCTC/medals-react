@@ -90,7 +90,7 @@ class App extends Component {
                 
                 {/* position="top-end"  */}
                 <ToastContainer className='position-fixed' style={{ zIndex: 1051, top: "3em", right: "1em", }}>
-                    <Toast show={this.state.showEmptyNameToast} delay={60000} className='position-relative' onClose={()=> this.setState({showEmptyNameToast: false})} autohide style={{/*minWidth: "16em"*/}}>
+                    <Toast show={this.state.showEmptyNameToast} delay={6000} className='position-relative' onClose={()=> this.setState({showEmptyNameToast: false})} autohide style={{/*minWidth: "16em"*/}}>
                         <Toast.Header>
                             <img
                                 src="holder.js/20x20?text=%20"
